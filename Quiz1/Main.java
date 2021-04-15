@@ -14,7 +14,8 @@ public class Main {
 		System.out.println("------------------------");
 		System.out.println("Brand :" + pen.getBrand());
 		System.out.println("Colour: " + pen.getColour());
-		System.out.println("Price: RM " + pen.getPrice());
+		System.out.printf("Price: RM %.2f",pen.getPrice());
+		System.out.println();
 		System.out.println("Usage: "+ pen.getUsage());
 		System.out.println("------------------------");
 		
