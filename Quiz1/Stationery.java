@@ -17,6 +17,8 @@ public class Stationery {
 		colour = s.nextLine();
 		System.out.println("Enter the usage: ");
 		usage = s.nextLine();
+		System.out.println("Enter the price: ");
+		price = s.nextDouble();
 		
 		System.out.println("STATIONERY PROPERTIES");
 		System.out.println("----------------------");
